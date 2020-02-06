@@ -1,18 +1,12 @@
 #include <stdio.h>
 /**
-*main - entry point
-*@void: takes no arguments
-*Return: int
-*
+*main - void
+*Return: 0
 */
 int main(void)
-{
-char i;
-
-for (i='z';i => 'a';i--)
-{
-putchar(i);
-}
-putchar('\n');
-return (0);
-}
+{char ch0 = 'z';
+char ch0 = '\n';
+for (ch0 = 'z' ; ch0 >= 'a' ; ch0--)
+{putchar(ch1); }
+{putchar(ch2); }
+return (0); }
