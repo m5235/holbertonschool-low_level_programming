@@ -13,18 +13,18 @@ int n, q;
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 q = n % 10;
-printf("Last digit of %d ", n);
-if (n > 0)
+printf("Last digit of %d is %d ", n, q);
+if (q > 5)
 {
-printf("is %d positive \n", q);
+printf("and is greater than 5\n");
 }
-else if (n == 0)
+else if (q == 0)
 {
-printf("%d is zero \n", n);
+printf("and is 0\n");
 }
-else
+else if (q < 6 && q != 0)
 {
-printf("%d is negative \n", q);
+printf("and is less than 6 and not 0\n");
 }
 return (0);
 }
