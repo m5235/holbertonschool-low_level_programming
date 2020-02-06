@@ -1,7 +1,9 @@
 #include <stdio.h>
 /**
-*main - void
-*Return: 0
+*main - entry point
+*@void: takes no arguments
+*Return: int
+*
 */
 int main(void)
 {char ch0 = 'z';

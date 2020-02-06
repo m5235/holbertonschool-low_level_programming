@@ -5,11 +5,10 @@
 */
 int main(void)
 {int n = 0;
+char ch1 = 'a';
 for (n = '0' ; n <= '9' ; n++)
-{putchar(n);
-if (n <= '8')
-{putchar(',');
-putchar(' '); }
-}
+{putchar(n); }
+for (ch0 = 'a' ; ch0 <= 'f' ; ch0++)
+{putchar(ch0); }
 putchar('\n');
 return (0); }
