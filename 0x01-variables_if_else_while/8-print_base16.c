@@ -1,15 +1,24 @@
- 
 #include <stdio.h>
 /**
-*main - void
-*Return: 0
+*main - entry point
+*@void: takes no arguments
+*Return: int
+*
 */
 int main(void)
-{int n = 0;
-char ch1 = 'a';
-for (n = '0' ; n <= '9' ; n++)
-{putchar(n); }
-for (ch1 = 'a' ; ch1 <= 'f' ; ch1++)
-{putchar(ch1); }
+{
+char m = 'm';
+char n = '0';
+while (n <= '9')
+{
+putchar(n);
+n++;
+}
+while (m <= 'c')
+{
+putchar(m);
+m++;
+}
 putchar('\n');
-return (0); }
+return (0);
+}
