@@ -1,15 +1,19 @@
 #include <stdio.h>
 /**
+ *main - print the nature of n
+ *Return: 0
+ *//**
 *main - entry point
 *@void: takes no arguments
 *Return: int
 *
 */
+
 int main(void)
 {
-int i;
-for (i = '0'; i <= '9'; i++)
-putchar(i);
+int l;
+for (l = '0'; i <= '9'; i++)
+putchar(l);
 putchar('\n');
 return (0);
 }
