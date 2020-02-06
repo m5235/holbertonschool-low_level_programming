@@ -1,30 +1,30 @@
-
-#include <stdio.h> 
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
 /**
-*@void:oki
-*Return:0
+*main - entry point
+*@void: takes no arguments
+*Return: int
 *
 */
-int main(void) 
+int main(void)
 {
-	int n, q;
+int n, q;
 srand(time(0));
-n= rand() - RAND_MAX / 2;
-q= n % 10;
-printf ("last digit of d% ", n,q);
+n = rand() - RAND_MAX / 2;
+q = n % 10;
+printf("Last digit of %d ", n);
 if (n > 0)
 {
-printf("%d is positive \n",n );
+printf("is %d positive \n", q);
 }
 else if (n == 0)
 {
-printf ("%d is zero \n",n);
+printf("%d is zero \n", n);
 }
 else
-{ 
-printf ("%d is negative \n",n);  
+{
+printf("%d is negative \n", q);
 }
 return (0);
 }
