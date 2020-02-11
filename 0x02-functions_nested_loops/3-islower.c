@@ -1,15 +1,13 @@
-#include "holerton.h"
+#include "holberton.h"
 /**
-**
-*main- function
-*
-*
-* Return: Always 0.
-*/
-int _islower(int c);
+ * _islower -  lowser
+ * @c: char
+ *
+ * Return: return (1) return (0)
+ */
+int _islower(int c)
 {
-int i;
-if (i >= 'a' && i <= 'z')
+if (c >= 'a' && c <= 'z')
 return (1);
 else
 return (0);
