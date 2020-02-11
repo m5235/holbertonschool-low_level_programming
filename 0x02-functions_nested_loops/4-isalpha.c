@@ -1,15 +1,15 @@
-#include "holerton.h"
+#include "holberton.h"
 /**
 **
-*main- function
+*_isalpha -
 *
 *
-* Return: Always 0.
+* Return: 0
 */
 int _isalpha(int c);
-int i;
+int c;
 {
-if for ((i = 'a' ;  <= 'z' ; i++ ) && (i = 'A' ;  <= 'Z' ; i++ ))
+if for ((c = 'a' ;  <= 'z' ; i++) && (c = 'A' ;  <= 'Z' ; i++))
 return (1);
 else
 return (0);
