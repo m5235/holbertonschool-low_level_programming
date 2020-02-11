@@ -5,7 +5,7 @@
 *Return: int
 **
 */
-int  (void)
+void print_alphabet (void);
 {
 char i;
 i = 'a';
