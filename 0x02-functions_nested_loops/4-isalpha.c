@@ -1,15 +1,13 @@
 #include "holberton.h"
 /**
-**
-*_isalpha -
-*
+*_isalpha - alphabetic character
+*@c: char
 *
 * Return: 0
 */
-int _isalpha(int c);
-int c;
+int _isalpha(int c)
 {
-if for ((c = 'a' ;  <= 'z' ; i++) && (c = 'A' ;  <= 'Z' ; i++))
+if ((c >= 97   && c <= 122) || (c >= 65 && c <= 90))
 return (1);
 else
 return (0);
