@@ -1,20 +1,21 @@
 #include "holberton.h"
 /**
-*main - entry point
+* print_alphabet_x10 - print alphabet
+* @void - no argument
 *
-*Return: int
-**
+* Return: void
 */
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 {
-char b ;
-int i ;
-for (i= 1 ; i <10 ; i++)
+char b;
+int i;
+
+for (i = 1; i < 10; i++)
 {
-    for (b='a' ; b<='z' ; b++ )
+for (b = 'a'; b <= 'z'; b++)
 {
-_putchar(c);
+_putchar(b);
 }
 _putchar('\n');
-return (0);
+}
 }
