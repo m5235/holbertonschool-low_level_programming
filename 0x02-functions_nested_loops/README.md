@@ -1,0 +1,1 @@
+gcc -Wall -pedantic -Werror -Wextra _putchar.c 0-holberton.c
