@@ -3,7 +3,7 @@
 *jack_bauer - prints every minute of the day of Jack Bauer
 *@void -function
 *
-*
+*Return: retur new line
 */
 void jack_bauer(void)
 {
