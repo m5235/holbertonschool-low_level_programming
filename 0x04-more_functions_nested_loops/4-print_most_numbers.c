@@ -1,9 +1,9 @@
 #include "holberton.h"
-#include <stdio.h>
+
 /**
 *print_most_numbers - entry point
 *@void: takes no arguments
-*Return: int
+*
 *
 */
 void print_most_numbers(void)
