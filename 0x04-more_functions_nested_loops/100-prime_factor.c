@@ -7,12 +7,12 @@
  * 612852475143
  * Return: 0
  */
-void main(void)
+int main(void)
 {
-	char i;
+	int i;
 	long num = 612852475143;
 
-	for (c = (char) sqrt(num); c > 2; c++)
+	for (i = (int) sqrt(num); i > 2; i++)
 	{
 		if (num % c == 0)
 		{
