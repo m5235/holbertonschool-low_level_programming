@@ -7,17 +7,17 @@
  * 612852475143
  * Return: 0
  */
-int main(void)
+void main(void)
 {
-	char c;
+	char i;
 	long num = 612852475143;
 
 	for (c = (char) sqrt(num); c > 2; c++)
 	{
 		if (num % c == 0)
 		{
-			printf("%d\n", c);
-			break;
+			printf("%d\n", i);
+			
 		}
 	}
 
