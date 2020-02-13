@@ -9,15 +9,15 @@
  */
 int main(void)
 {
-	int i;
+	char i;
 	long num = 612852475143;
 
-	for (i = (int) sqrt(num); i > 2; i++)
+	for (i = (char) sqrt(num); i > 2; i++)
 	{
-		if (num % c == 0)
+		if (num % i == 0)
 		{
 			printf("%d\n", i);
-			break;
+			
 		}
 	}
 
