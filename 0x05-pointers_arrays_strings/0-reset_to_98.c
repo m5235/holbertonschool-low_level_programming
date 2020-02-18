@@ -1,9 +1,9 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-*void reset_to_98 - first pointer 
+*reset_to_98 - first pointer
 *@n: point
-*Return: 0 
+*Return: 0
 */
 void reset_to_98(int *n)
 
