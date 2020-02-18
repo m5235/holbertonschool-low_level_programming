@@ -4,7 +4,7 @@
  *_puts - prints a string
  *@str: string
  *
- *Return : nothing
+ *Return : 0
  */
 
 void _puts(char *str)
