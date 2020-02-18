@@ -18,7 +18,7 @@ else
 {
 i = (j - 1) / 2;
 }
-while (i <= j)
+while (i < j)
 {
 _putchar(str[i]);
 i++;
