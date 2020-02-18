@@ -7,6 +7,7 @@
 *@n: number
 */
 void print_array(int *a, int n)
+
 {
 int i = 0;
 while (i < n)
