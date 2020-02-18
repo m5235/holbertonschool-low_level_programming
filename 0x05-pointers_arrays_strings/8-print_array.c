@@ -1,4 +1,3 @@
-#include "holberton.h"
 #include <stdio.h>
 /**
 *print_array - print
@@ -18,5 +17,4 @@ else
 printf("%d\n", a[i]);
 i++;
 }
-printf("\n");
 }
