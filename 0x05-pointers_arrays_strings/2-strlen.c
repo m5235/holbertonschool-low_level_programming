@@ -1,15 +1,15 @@
 #include "holberton.h"
-#include <stdio.h>
-#include <string.h> 
+
 /**
- *_strlen - copie legnth 
- * 
- * 
+ *_strlen - copie legnth
+ *@s: pointer
+ *Return: 0
  */
 
 int _strlen(char *s)
 {
 int i;
-       for (i= 0; s[i]; ++i);
-	return (i);
+for (i = 0; s[i]; i++)
+;
+return (i);
 }
