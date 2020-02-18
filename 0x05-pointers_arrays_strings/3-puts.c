@@ -6,8 +6,8 @@
  *
  *Return : 0
  */
-
 void _puts(char *str)
+
 {
 printf("%sn\n", str);
 }
