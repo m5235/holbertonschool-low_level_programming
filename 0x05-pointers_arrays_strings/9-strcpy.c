@@ -1,23 +1,20 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-*_strncpy - strcpy
+*_strcpy - similar function
 *@dest: - dest
 *@src: src
-*@n: numb
+*
 *
 *Return: 0
 */
 
-char *_strncpy(char *dest, char *src, int n)
+char *_strcpy(char *dest, char *src)
 {
-	int i;
-
-	for (i = 0; i < n && src[i] != '\0'; i++)
-		dest[i] = src[i];
-
-	for (; n > i; i++)
-		dest[i] = '\0';
-
-	return (dest);
+int i;
+for (i = 0; src[i] != '\0'; i++)
+dest[i] = src[i];
+if (dest[i] != '\0')
+dest[i] = '\0';
+return (dest);
 }
