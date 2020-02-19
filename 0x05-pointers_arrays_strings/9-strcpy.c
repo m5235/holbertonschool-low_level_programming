@@ -1,11 +1,8 @@
 #include "holberton.h"
-#include <stdio.h>
 /**
 *_strcpy - similar function
 *@dest: - dest
 *@src: src
-*
-*
 *Return: 0
 */
 
