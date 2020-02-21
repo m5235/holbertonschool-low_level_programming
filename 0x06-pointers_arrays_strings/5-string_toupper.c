@@ -7,12 +7,11 @@
  */
 char *string_toupper(char *ch)
 {
-int i, j;
-for (i = 0; i != '\0'; i++)
-{
-for (j = 0; j <= i; j++)
-if (ch[i] >= 97 && ch[i] <= 122)
-ch[i] = ch[i] - 32;
+    int i;
+for (i = 0; ch[i]!='\0'; i++) {
+   if(ch[i] >= 'a' && ch[i] <= 'z') {
+      ch[i] = ch[i] - 32;
+   }
 }
-return (ch);
+
 }
