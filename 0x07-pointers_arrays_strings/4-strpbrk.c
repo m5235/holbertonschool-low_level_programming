@@ -14,7 +14,7 @@ for (i = 0; s[i] != '\0'; i++)
 ;
 for (j = 0; accept[j] ; j++)
 {
-if (s[j] == accept[j])
+if (s[i] == accept[j])
 return (&(s[j]));
 }
 return (0);
