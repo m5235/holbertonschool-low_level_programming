@@ -8,3 +8,4 @@ int _sqrt_recursion(int n);
 int is_prime_number(int n);
 int is_palindrome(char *s);
 int sqr(int i, int n);
+int prime_number2(int i, int n);
