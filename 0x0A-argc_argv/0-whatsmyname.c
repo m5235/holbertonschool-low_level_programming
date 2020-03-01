@@ -1,20 +1,21 @@
 #include "holberton.h"
-#include "stdio.h"
-/**
-*main -output argv[0]
-*@argc:number argument
-*@argv: array
-*Return: 0
-*/
-int main(int argc, char *argv[])
 
+/**
+ * 
+ * 
+ * 
+ * 
+ */
+
+int main(int argc, char **argv)
 {
 	int i;
 
-	for (i = 0; i < argc ; i++)
-{
-	printf("%s\n", argv[i]);
-}
-
-return (0);
+	(void)argc;
+	for (i = 0; argv[0][i] != '\0'; i++)
+	{
+		_putchar(argv[0][i]);
+	}
+	_putchar('\n');
+	return (0);
 }
