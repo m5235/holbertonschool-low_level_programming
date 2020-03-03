@@ -11,7 +11,7 @@
 char *str_concat(char *s1, char *s2)
 {
 unsigned int i = 0, j = 0;
-unsigned int z;
+unsigned int z, len;
 char *n;
 if (!(s1 == NULL))
 {
@@ -28,8 +28,8 @@ if (n == NULL)
 return (NULL);
 for (z = 0; z < i + j; z++)
 n[z] = s1[z];
-for (z = 0; z < i + j; z++)
-n[z + i] = s2[z];
+for (len = 0; len < i + j; len++)
+n[len + i] = s2[len];
 n[z] = '\0';
 return (n);
 }
