@@ -14,6 +14,7 @@ char *n;
 if (str == NULL)
 return (NULL);
 for (i = 0; str[i]; i++)
+;
 n = malloc((i + 1) * sizeof(char));
 if (n == NULL)
 return (NULL);
