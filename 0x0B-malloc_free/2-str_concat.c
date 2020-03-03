@@ -27,13 +27,12 @@ for (j = 0; s2[j] != '\0'; j++)
 n = malloc((i + j + 1) * sizeof(char));
 if (n == NULL)
 return (NULL);
-for (z = 0; z < i - 1; z++)
+for (z = 0; z < i; z++)
 n[z] = s1[z];
 for (len = 0; len < i + j; len++)
 {
-n[z] = s2[len];
-z++;
+n[len + i] = s2[len];
 }
-n[z] = '\0';
+n[len + i] = '\0';
 return (n);
 }
