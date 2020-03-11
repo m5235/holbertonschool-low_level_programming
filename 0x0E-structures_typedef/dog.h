@@ -1,7 +1,11 @@
 #ifndef DOG_H
 #define DOG_H
 /**
- *struct dog.h -new type
+ *struct dog -new type
+ *dog -file name
+ *@name: pointer of char
+ *@age: float
+ *@owner: pointer of char
  */
 
 struct dog
