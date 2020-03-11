@@ -3,6 +3,7 @@
  *print_name - funtion print name
  *@name:  name of print
  *@f: pointer
+ *return: void
  */
 void print_name(char *name, void (*f)(char *))
 {
