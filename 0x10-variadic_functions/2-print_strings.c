@@ -19,16 +19,18 @@ for (i = 0; i < n; i++)
 	{
 	ptr = va_arg(list, char*);
 if (!ptr)
+{
 printf("(nill)");
-
+}
 	else
+	{
 	printf("%s", ptr);
+	}
 if ((separator != NULL) && (i < n - 1))
 
 	printf("%s", separator);
 
 	}
 printf("\n");
-
 va_end(list);
 }
