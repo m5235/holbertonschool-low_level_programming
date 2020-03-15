@@ -20,7 +20,7 @@ for (i = 0; i < n; i++)
 	ptr = va_arg(list, char*);
 if (!ptr)
 {
-printf("(nill)");
+printf("(nil)");
 }
 	else
 	{
