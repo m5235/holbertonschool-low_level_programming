@@ -1,6 +1,6 @@
 section .data
 
-msj db 'Hello, Holberton ',10
+msj db 'Hello, Holberton ',
 msj_length equ 		$ - 	msj			
 
 section .text
