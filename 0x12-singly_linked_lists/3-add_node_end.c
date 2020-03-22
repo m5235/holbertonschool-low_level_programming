@@ -18,9 +18,9 @@ m = malloc(sizeof(list_t));
 if (m == NULL)
 return (NULL);
 for (i = 0; str[i]; i++)
-ptr->str = strdup(str);
-ptr->len = i;
-ptr->next = NULL;
+m->str = strdup(str);
+m->len = i;
+m->next = NULL;
 if (ptr == NULL)
 {
 ptr = m;
