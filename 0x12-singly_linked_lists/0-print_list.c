@@ -11,7 +11,6 @@ size_t print_list(const list_t *h)
 {
 	const list_t *ptr = h;
 	unsigned int i;
-
 	for (i = 0; ptr != NULL; i++)
 	{
 		if (ptr->str == NULL)
@@ -19,9 +18,6 @@ size_t print_list(const list_t *h)
 		else
 			printf("[%d] %s\n", ptr->len, ptr->str);
 		ptr = ptr->next;
-		
-
 	}
-
 	return (i);
 }
