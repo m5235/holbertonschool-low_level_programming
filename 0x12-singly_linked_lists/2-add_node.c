@@ -23,5 +23,5 @@ ptr->str = strdup(str);
 ptr->len = i;
 ptr->next = *head;
 *head = ptr;
-	return (ptr);
+	return (*head);
 }
