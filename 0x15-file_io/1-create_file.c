@@ -27,10 +27,11 @@ return (0);
 for (i = 0; text_content[i]; i++)
 
 writer = write(fd, text_content, i);
-if (writer < 0)
+if ((writer == -1) || (writer != i))
 {
 	return (-1);
-}
+} 
+
 return (1);
 
 }
