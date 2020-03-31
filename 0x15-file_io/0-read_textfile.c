@@ -42,5 +42,5 @@ free(ptr);
 }
 free(ptr);
 close(fd);
-return (m_read);
+return (m_write);
 }
