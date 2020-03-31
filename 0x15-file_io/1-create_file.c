@@ -25,7 +25,7 @@ return (-1);
 for (i = 0; text_content[i]; i++)
 
 writer = write(fd, text_content, i);
-if ((writer < 0) || (writer != i))
+if (writer < 0)
 {
 return (-1);
 }
