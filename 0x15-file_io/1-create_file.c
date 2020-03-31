@@ -22,8 +22,8 @@ fd = open(filename, O_WRONLY | O_CREAT | O_TRUNC, 0600);
 if (fd == -1)
 return (-1);
 
-for (i = 0; text_content[i]; i++)
-
+while (text_content[i])
+i++;
 writer = write(fd, text_content, i);
 if (writer < 0)
 {
