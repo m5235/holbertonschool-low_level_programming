@@ -33,7 +33,7 @@ if (m_read == -1)
 	free(ptr);
 	return (0);
 }
-m_write = write(STDOUT_FILENO, ptr, letters);
+m_write = write(STDOUT_FILENO, ptr, m_read);
 if (m_write == -1)
 {
 close(fd);
@@ -42,5 +42,5 @@ free(ptr);
 }
 free(ptr);
 close(fd);
-return (m_write);
+return (m_read);
 }
